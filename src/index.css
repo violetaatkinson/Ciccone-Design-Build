@@ -1,1 +1,3 @@
 @import "tailwindcss";
+.font-manrope { font-family: 'Manrope', sans-serif; }
+.font-poppins { font-family: 'Poppins', sans-serif; }
