@@ -103,10 +103,10 @@ const Hero = () => {
 
 				<div className="pb-8 lg:pb-10 2xl:pb-24 flex items-end justify-between">
 					<div>
-						<p className="text-white/75 text-sm tracking-[0.22em] uppercase drop-shadow-[0_2px_8px_rgba(0,0,0,0.45)]">
+						<p className="text-white/75 text-sm 2xl:text-base tracking-[0.22em] uppercase drop-shadow-[0_2px_8px_rgba(0,0,0,0.45)]">
 							Beverly Hills · Bel Air · Santa Monica
 						</p>
-						<p className="text-white/75 text-sm tracking-[0.22em] uppercase drop-shadow-[0_2px_8px_rgba(0,0,0,0.45)] mt-3">
+						<p className="text-white/75 text-sm 2xl:text-base tracking-[0.22em] uppercase drop-shadow-[0_2px_8px_rgba(0,0,0,0.45)] mt-3">
 							Pacific Palisades · Hollywood Hills
 						</p>
 					</div>
@@ -118,7 +118,7 @@ const Hero = () => {
 						}
 						className="flex items-center gap-3 text-white/60 hover:text-[#8C7B6E] transition-colors duration-300"
 					>
-						<span className="text-base tracking-[0.4em] uppercase">
+						<span className="text-base 2xl:text-lg tracking-[0.4em] uppercase">
 							Explore
 						</span>
 						<svg

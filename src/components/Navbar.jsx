@@ -38,14 +38,14 @@ const Navbar = () => {
 				scrolled || menuOpen ? "bg-[#0e0e0e]" : "bg-transparent"
 			}`}
 		>
-			<div className="flex items-center justify-between h-20 px-10 md:px-16">
+			<div className="flex items-center justify-between h-20 2xl:h-24 px-10 md:px-16 2xl:px-24">
 				<Logo />
-				<div className="hidden md:flex items-center gap-12">
+				<div className="hidden md:flex items-center gap-12 2xl:gap-16">
 					{links.map((link) => (
 						<Link
 							key={link.name}
 							to={link.href}
-							className="text-[13px] tracking-[0.2em] uppercase text-white/70 hover:text-[#8C7B6E] transition-colors duration-300"
+							className="text-[13px] 2xl:text-[15px] tracking-[0.2em] uppercase text-white/70 hover:text-[#8C7B6E] transition-colors duration-300"
 						>
 							{link.name}
 						</Link>
