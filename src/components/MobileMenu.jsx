@@ -13,7 +13,9 @@ export const MobileBurger = ({ menuOpen, setMenuOpen }) => (
 export const MobileDropdown = ({ links, menuOpen, setMenuOpen }) => (
 	<div
 		className={`md:hidden transition-all duration-300 ${
-			menuOpen ? "max-h-64 opacity-100" : "max-h-0 opacity-0 overflow-hidden"
+			menuOpen
+				? "max-h-64 opacity-100 bg-[#0e0e0e]"
+				: "max-h-0 opacity-0 overflow-hidden bg-transparent"
 		}`}
 	>
 		<ul className="px-10 py-4">

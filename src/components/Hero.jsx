@@ -25,8 +25,10 @@ const Hero = () => {
 			</div>
 
 			<div className="absolute top-20 left-0 right-0 h-[0.5px] bg-white/20" />
+
+			{/* MOBILE */}
 			<div className="relative h-full flex flex-col md:hidden px-6">
-				<div className="pt-32 top-40">
+				<div className="pt-36">
 					<span className="text-white/60 text-[13px] tracking-[0.35em] uppercase block text-center leading-6">
 						Custom Home Design
 					</span>
@@ -43,7 +45,6 @@ const Hero = () => {
 						Precision.
 					</h1>
 				</div>
-
 
 				<div className="pb-16 flex flex-col items-center gap-6">
 					<div className="text-center">
@@ -83,6 +84,7 @@ const Hero = () => {
 				</div>
 			</div>
 
+			{/* DESKTOP */}
 			<div className="relative h-full hidden md:flex flex-col justify-between px-10 lg:px-16">
 				<div className="pt-32 lg:pt-36">
 					<span className="text-white/60 md:text-sm lg:text-base tracking-[0.35em] uppercase drop-shadow-[0_1px_3px_rgba(0,0,0,0.8)] block text-left">
@@ -90,7 +92,7 @@ const Hero = () => {
 					</span>
 				</div>
 
-				<div className="flex-1 flex flex-col justify-center">
+				<div className="flex-1 flex flex-col justify-center mt-6 2xl:-mt-20">
 					<h1 className="font-manrope font-extralight text-[clamp(90px,9vw,150px)] 2xl:text-[160px] leading-[0.86] tracking-[-0.055em] text-white/85">
 						Built with
 					</h1>
@@ -99,7 +101,7 @@ const Hero = () => {
 					</h1>
 				</div>
 
-				<div className="pb-16 lg:pb-20 flex items-end justify-between">
+				<div className="pb-8 lg:pb-10 2xl:pb-24 flex items-end justify-between">
 					<div>
 						<p className="text-white/75 text-sm tracking-[0.22em] uppercase drop-shadow-[0_2px_8px_rgba(0,0,0,0.45)]">
 							Beverly Hills · Bel Air · Santa Monica

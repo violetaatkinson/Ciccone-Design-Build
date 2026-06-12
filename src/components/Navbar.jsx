@@ -35,7 +35,7 @@ const Navbar = () => {
 		<nav
 			ref={navRef}
 			className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
-				scrolled ? "bg-[#0e0e0e]" : "bg-transparent"
+				scrolled || menuOpen ? "bg-[#0e0e0e]" : "bg-transparent"
 			}`}
 		>
 			<div className="flex items-center justify-between h-20 px-10 md:px-16">
@@ -54,7 +54,9 @@ const Navbar = () => {
 				<MobileBurger menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
 			</div>
 			<div
-				className={`h-[0.5px] transition-all duration-500 ${scrolled ? "bg-white/10" : "bg-transparent"}`}
+				className={`h-[0.5px] transition-all duration-500 ${
+					scrolled || menuOpen ? "bg-white/10" : "bg-transparent"
+				}`}
 			/>
 			<MobileDropdown
 				links={links}
